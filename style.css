@@ -46,23 +46,17 @@ main{
 
 .Irri{
     margin-top: 20px;
-    position: absolute;
     width: 400px;
     border: dotted;
     border-radius: 5px;
     border-color: black;
+    position: absolute;
 }
 
 .ArtP
 {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-}
-
-#last-line{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding-inline: 15px;
 }
 
 .ArtTitle, .ArtP, h2{
