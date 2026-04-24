@@ -1,5 +1,5 @@
 body{
-    margin-inline: 200px;
+    margin-inline: 20lvw;
 }
 
 header{
@@ -7,20 +7,19 @@ header{
     margin: auto;
     display: block;
     padding: 30px;
-    margin-inline: 150px;
     border-style: solid;
     border-width: 2px;
 }
 
 .Titulo{
     text-align: center;
+    font-size: 4lvh;
 }
 
 nav{
     background-color: rgb(191, 253, 172);
     padding: 10px;
     text-align: center;
-    margin-inline: 150px;
 }
 
 a{
@@ -30,17 +29,17 @@ a{
     background-color: rgb(187, 255, 27);
     border-radius: 5px;
     border-style:double;
-    border-width: 1px;
+    border-width: 0.2lvw;
+    font-size: 2vh;
 }
 
 span{
     padding-inline: 50px;
 }
 
-main{
+.main1{
     background-color: rgb(101, 231, 96);
-    margin-inline: 150px;
-    min-height: 500px; 
+    min-height: 50vh; 
     display: flex;   
     gap: 20px;         
     border-style: solid;
@@ -49,8 +48,8 @@ main{
 }
 
 .Irri{
-    float: left;
-    width: 400px;
+    float: right;
+    width: 40lvh;
     margin: 20px;
     border: dotted;
     border-radius: 5px;
@@ -61,20 +60,38 @@ main{
     margin-left: 0;
 }
 
+h2{
+    font-size: 3lvh;
+}
+
 .ArtP
 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 article{    
     width: auto;
-    height: 500px;
+    height: 50vh;
     overflow: auto;
 }
 
 .ArtTitle{
-    font-size: 40px;
+    font-size: 4lvh;
+}
+
+.main2{
+    background-color: rgb(49, 179, 45);
+    min-height: 500px; 
+    display: flex;   
+    gap: 20px;         
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+
+.diagrama{
+    scale: 0.9;
 }
 
 footer{
@@ -82,7 +99,6 @@ footer{
     margin: auto;
     display: block;
     padding: 30px;
-    margin-inline: 150px;
     height: 100px;
     border-style: solid;
     border-width: 2px;
